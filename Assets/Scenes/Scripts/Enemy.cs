@@ -30,7 +30,7 @@ public class Enemy : MonoBehaviour
             }
             if (gameObject.CompareTag("Enemy"))
             {
-                Destroy(gameObject);
+                Destroy(this.gameObject);
             }
         }
     }
